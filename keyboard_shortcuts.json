@@ -1,0 +1,115 @@
+{
+    "shortcuts": [
+        {
+            "command": "notebook:insert-cell-above",
+            "keys": [
+                "Shift O",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:insert-cell-below",
+            "keys": [
+                "O",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+                {
+            "command": "notebook:enter-edit-mode",
+            "keys": [
+                "I",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+                {
+            "command": "notebook:cut-cell",
+            "keys": [
+                "D",
+                "D",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:copy-cell",
+            "keys": [
+                "Y",
+                "Y",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:paste-cell-below",
+            "keys": [
+                "P",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+                {
+            "command": "notebook:paste-cell-above",
+            "keys": [
+                "Shift P",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:merge-cells",
+            "keys": [
+                "Shift J",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:undo-cell-action",
+            "keys": [
+                "U",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:redo-cell-action",
+            "keys": [
+                "Ctrl R",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "runmenu:restart-and-run-all",
+            "keys": [
+                "\\",
+                "R",
+            ],
+            "selector": "[data-jp-code-runner]"
+        },
+                {
+            "command": "kernelmenu:interrupt",
+            "keys": [
+                "\\",
+                "Q",
+            ],
+            "selector": "[data-jp-kernel-user]:focus"
+        },
+                {
+            "command": "notebook:change-cell-to-markdown",
+            "keys": [
+                "M",
+                "D",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "notebook:change-cell-to-code",
+            "keys": [
+                "C",
+                "D",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            "command": "jupyterlab_code_formatter:format_all",
+            "keys": [
+                "=",
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+    ]
+}
