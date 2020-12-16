@@ -16,3 +16,5 @@
 * <kbd>\\</kbd> <kbd>r</kbd> - `runmenu:restart-and-run-all`
 * <kbd>\\</kbd> <kbd>q</kbd> - `kernelmenu:interrupt`
 * <kbd>=</kbd> - `jupyterlab_code_formatter:format_all`
+
+\* : default
