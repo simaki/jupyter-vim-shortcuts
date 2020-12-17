@@ -1,3 +1,7 @@
+```sh
+curl https://raw.githubusercontent.com/simaki/jupyter-vim-shortcuts/main/keyboard_shortcuts.json | pbcopy
+```
+
 * <kbd>j</kbd> - `notebook:move-cursor-down`*
 * <kbd>k</kbd> - `notebook:move-cursor-up`*
 * <kbd>o</kbd> - `notebook:insert-cell-below`
